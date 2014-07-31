@@ -6,12 +6,14 @@ StatsD backend to flush metrics to [bell](https://github.com/eleme/bell.git)
 Installation
 --------------
 
+You can add it to the StatsD `package.json` and run `npm install`, or to run:
+
 ```bash
 $ npm install statsd-bell
 ```
 
-Configs
--------
+Configuration
+-------------
 
 Add `statsd-bell` to statsd's backends:
 
