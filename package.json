@@ -1,7 +1,7 @@
 {
   "name": "statsd-bell",
-  "description": "Statsd backend for github/eleme/bell.",
-  "version": "0.0.1",
+  "description": "StatsD backend to flush metrics to bell, github/eleme/bell.",
+  "version": "0.0.2",
   "author": "hit9 <wangchao@ele.me>",
   "repository": {
     "type": "git",
@@ -13,5 +13,7 @@
     "node" : ">=0.8"
   },
   "dependencies": {
+    "minimatch": ">=1.0.0",
+    "bufferpack": ">=0.0.5"
   }
 }
