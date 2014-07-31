@@ -1,7 +1,7 @@
 {
   "name": "statsd-bell",
   "description": "StatsD backend to flush metrics to bell, github/eleme/bell.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "hit9 <wangchao@ele.me>",
   "repository": {
     "type": "git",
