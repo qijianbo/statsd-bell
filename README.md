@@ -3,6 +3,8 @@ statsd-bell
 
 StatsD backend to flush metrics to [bell](https://github.com/eleme/bell.git)
 
+Latest version: v0.0.6, support bell's version v0.5.2.
+
 Installation
 --------------
 
@@ -30,6 +32,6 @@ Optional setting items and their default values:
 , bellHost: "0.0.0.0"
 , bellPort: 2024
 , bellIgnores: ["statsd.*"]
-, bellMetricsTypes: ["counters", "timers"]
+, bellTypes: ["counter_rates", "timer_data"]
 }
 ```
