@@ -3,9 +3,10 @@ statsd-bell
 
 [StatsD](https://github.com/etsy/statsd) backend to flush metrics to [bell](https://github.com/eleme/bell.git)
 
-Latest version: v0.0.7, support bell's version v0.5.2.
+Latest version: v0.0.8, support bell's version v0.5.2+.
 
-Currently, this backend support only 3 metric types: `counters`, `counter_rates` and `timer_data`.
+**Currently, this backend support only 2 metric types: counter_rates and timer_data,
+and select only the item `mean` in `timer_data`.**
 
 Installation
 --------------
@@ -34,6 +35,15 @@ Optional setting items and their default values:
 , bellHost: "0.0.0.0"
 , bellPort: 2024
 , bellIgnores: ["statsd.*"]
-, bellTypes: ["counter_rates", "timer_data"]
 }
 ```
+
+Name Spacing
+------------
+
+- Counters: `"foo"` => `"counter.foo"`
+- Timers: `"foo"` => `"timer.foo"`
+
+License
+-------
+MIT, (c) Eleme, Inc.
