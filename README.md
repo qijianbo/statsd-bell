@@ -1,9 +1,9 @@
 statsd-bell
 ------------
 
-[StatsD](https://github.com/etsy/statsd) backend to flush metrics to [bell](https://github.com/eleme/bell.git)
+[StatsD](https://github.com/etsy/statsd) backend to flush metrics to [node-bell](https://github.com/eleme/node-bell.git)
 
-Latest version: v0.1.0, support bell's version v0.5.2+.
+Latest version: v0.1.1
 
 **Currently, this backend support only 2 metric types: counter_rates and timer_data,
 and select only the item `mean` in `timer_data`.**
