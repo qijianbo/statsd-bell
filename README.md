@@ -1,5 +1,9 @@
+Deprecated, backend module is in node-bell now https://github.com/eleme/node-bell
+----------------------------------------------------------------------------------
+
 statsd-bell
 ------------
+
 
 [StatsD](https://github.com/etsy/statsd) backend to flush metrics to [node-bell](https://github.com/eleme/node-bell.git)
 
